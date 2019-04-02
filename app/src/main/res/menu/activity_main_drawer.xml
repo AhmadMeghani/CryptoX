@@ -5,33 +5,41 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_CC"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="Caesar's Cypher" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_VC"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Vigenere Cypher" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_PAC"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Poly Alphabetic Cypher" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_PFC"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Playfair Cypher" />
+        <item
+            android:id="@+id/nav_RFC"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Rail Fence Cypher" />
+        <item
+            android:id="@+id/nav_CoC"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Columnar Cypher" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Insights">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_aboutApp"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="About the CryptoX" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_aboutCourse"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="About the course" />
         </menu>
     </item>
 
