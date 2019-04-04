@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.abcx.cryptox.R;
-import com.abcx.cryptox.SectionsPagerAdapter;
 
 
 /**
@@ -18,7 +17,6 @@ import com.abcx.cryptox.SectionsPagerAdapter;
  */
 public class ceasarCypher extends Fragment {
     private ViewPager viewPager;
-    private SectionsPagerAdapter sectionsPagerAdapter;
     private TabLayout tabLayout;
 
 
@@ -35,11 +33,7 @@ public class ceasarCypher extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_ceasar_cypher, container, false);
 
-        viewPager = findViewById(R.id.tabPager);
-        sectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
-        viewPager.setAdapter(sectionsPagerAdapter);
-        tabLayout = findViewById(R.id.tabLayout);
-        tabLayout.setupWithViewPager(viewPager);
+
 
     }
 
